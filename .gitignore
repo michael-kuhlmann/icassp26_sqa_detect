@@ -27,3 +27,7 @@ node_modules/
 # Python cache (if any Python scripts are added later)
 __pycache__/
 *.pyc
+
+# Local files
+*.tsv
+
