@@ -62,11 +62,22 @@
 <body>
 <header>
   <h1>Localizable Speech Quality Assessment</h1>
-  <div class="meta">Total: 120 audio files. Generated 2025-09-21 21:07.</div>
+  <div class="meta">Total: 120 audio files. Generated 2025-09-21 21:39.</div>
 </header>
 
 <main>
-
+<section class="intro"><p>This page shows a random selection of audio samples that were used in the listening test for our ICASSP submission, <strong>"SPEECH QUALITY-BASED LOCALIZATION OF LOW-QUALITY SPEECH AND TEXT-TO-SPEECH SYNTHESIS ARTEFACTS"</strong>.</p>
+<p>We evaluated <strong>three</strong> systems:</p>
+<ul>
+<li>LibriTTS: Human speech from LibriTTS <code>test-clean</code></li>
+<li>StyleTTS2</li>
+<li>F5-TTS</li>
+</ul>
+<p>For each system, we created a <strong>Control</strong> set with random samples of about five words and a <strong>Detection</strong> set using frame-level quality scores to detect segments of low quality.</p>
+<h3>How to navigate this page</h3>
+<p>Click on a section to collapse/uncollapse it.
+Each section displays 20 cards with an audio player and a corresponding transcription (text to be synthesized).</p>
+<p>We especially encourage you to compare the <strong>StyleTTS2</strong> control and detection sets.</p></section>
 <nav class="toc"><a href="#libritts-control">LibriTTS (Control)</a><a href="#styletts2-control">StyleTTS2 (Control)</a><a href="#f5-tts-control">F5-TTS (Control)</a><a href="#libritts-detected">LibriTTS (Detected)</a><a href="#styletts2-detected">StyleTTS2 (Detected)</a><a href="#f5-tts-detected">F5-TTS (Detected)</a></nav>
 <section class="section" id="libritts-control">
   <details >
