@@ -8,12 +8,11 @@ Place your audio files in this directory. The supported formats are:
 
 ## File Organization
 
-You can organize files in subdirectories if needed. The main index.html page will automatically detect and display audio files.
+You can organize files in subdirectories if needed.
 
 ## Adding New Audio Files
 
 1. Upload your audio files to this directory
-2. Optionally update the index.html file to include specific descriptions for each file
-3. Commit and push your changes to deploy them to GitHub Pages
+2. Commit and push your changes
 
-The GitHub Pages site will be automatically updated when you push changes to the main branch.
+Changes will be automatically deployed when you push to the main branch.
